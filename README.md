@@ -2,7 +2,7 @@
 INF 311 — Dispositivos Móveis  
 Curso de Ciência da Computação — UFV
 
-## 📱 Sobre o aplicativo
+## Descrição
 
 Este aplicativo Android foi desenvolvido como parte da Prática 02 da disciplina INF 311 — Dispositivos Móveis, do curso de Ciência da Computação da Universidade Federal de Viçosa (UFV).
 
