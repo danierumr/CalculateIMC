@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/relatorioTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/relatorio"
+        android:textStyle="italic"
+        android:textSize="15pt"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/nameResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_user"
+        android:layout_below="@+id/relatorioTitle"
+        android:layout_alignStart="@+id/relatorioTitle"
+        android:layout_marginTop="50dp"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/nameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/classificationValue"
+        android:layout_alignTop="@+id/nameResult"
+        android:textSize="8pt"
+        android:hint="NAME"
+        />
+
+    <TextView
+        android:id="@+id/ageResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age_user"
+        android:layout_below="@+id/nameResult"
+        android:layout_alignStart="@+id/relatorioTitle"
+        android:layout_marginTop="30dp"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ageValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ageResult"
+        android:layout_alignBottom="@+id/ageResult"
+        android:layout_alignStart="@id/classificationValue"
+        android:textSize="8pt"
+        android:hint="IDADE"
+        />
+
+    <TextView
+        android:id="@+id/weightResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight_user"
+        android:layout_below="@+id/ageResult"
+        android:layout_alignStart="@+id/relatorioTitle"
+        android:layout_marginTop="30dp"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/weightValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/weightResult"
+        android:layout_alignBottom="@+id/weightResult"
+        android:layout_alignStart="@id/classificationValue"
+        android:textSize="8pt"
+        android:hint="PESO"
+        />
+
+    <TextView
+        android:id="@+id/heightResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/height_user"
+        android:layout_below="@+id/weightResult"
+        android:layout_alignStart="@+id/relatorioTitle"
+        android:layout_marginTop="30dp"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/heightValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/heightResult"
+        android:layout_alignBottom="@+id/heightResult"
+        android:layout_alignStart="@id/classificationValue"
+        android:textSize="8pt"
+        android:hint="ALTURA"
+        />
+
+    <TextView
+        android:id="@+id/imcResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imc_user"
+        android:layout_below="@+id/heightResult"
+        android:layout_alignStart="@+id/relatorioTitle"
+        android:layout_marginTop="30dp"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/imcValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imcResult"
+        android:layout_alignBottom="@+id/imcResult"
+        android:layout_alignStart="@id/classificationValue"
+        android:textSize="8pt"
+        android:hint="IMC"
+        />
+
+    <TextView
+        android:id="@+id/classificationResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/classification_user"
+        android:layout_below="@+id/imcResult"
+        android:layout_alignStart="@+id/relatorioTitle"
+        android:layout_marginTop="30dp"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/classificationValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/classificationResult"
+        android:layout_alignBottom="@+id/classificationResult"
+        android:layout_toEndOf="@+id/classificationResult"
+        android:layout_marginLeft="10dp"
+        android:textSize="8pt"
+        android:hint="CLASSFICACAO"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:text="@string/back_btn"
+        />
+
+</RelativeLayout>

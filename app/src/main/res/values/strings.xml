@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CalculateIMC</string>
+    <string name="name_user">Nome:</string>
+    <string name="age_user">Idade:</string>
+    <string name="weight_user">Peso (kg):</string>
+    <string name="height_user">Altura (m):</string>
+    <string name="imc_user">IMC:</string>
+    <string name="classification_user">Classificação:</string>
+    <string name="abaixo_peso">Abaixo do Peso</string>
+    <string name="saudavel_peso">Saudável</string>
+    <string name="sobre_peso">Sobrepeso</string>
+    <string name="ob1_peso">Obesidade Grau I</string>
+    <string name="ob2_peso">Obesidade Grau II (severa)</string>
+    <string name="ob3_peso">Obesidade Grau III (mórbida)</string>
+    <string name="relatorio">Relatório Nutricional</string>
+    <string name="back_btn">Realizar novo cálculo</string>
+</resources>

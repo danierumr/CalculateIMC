@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_user"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="10pt"
+        />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameText"
+        android:layout_alignStart="@+id/nameText"
+        android:layout_marginEnd="30dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameInput"
+        android:layout_alignStart="@+id/nameInput"
+        android:layout_marginTop="60dp"
+        android:text="@string/age_user"
+        android:textSize="10pt"
+        />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ageText"
+        android:layout_alignStart="@+id/nameText"
+        android:layout_alignEnd="@+id/nameText"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/weightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameInput"
+        android:layout_alignTop="@+id/ageText"
+        android:layout_toRightOf="@+id/ageText"
+        android:layout_marginLeft="40dp"
+        android:text="@string/weight_user"
+        android:textSize="10pt"
+        />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ageText"
+        android:layout_alignTop="@+id/ageInput"
+        android:layout_alignStart="@+id/weightText"
+        android:layout_alignEnd="@+id/weightText"
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/heightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameInput"
+        android:layout_alignTop="@+id/ageText"
+        android:layout_alignEnd="@+id/nameInput"
+        android:layout_toRightOf="@+id/weightText"
+        android:layout_marginLeft="30dp"
+        android:text="@string/height_user"
+        android:textSize="10pt"
+        />
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ageText"
+        android:layout_alignTop="@+id/ageInput"
+        android:layout_alignStart="@+id/heightText"
+        android:layout_alignEnd="@+id/heightText"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/btnRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:text="@string/relatorio"
+        />
+
+</RelativeLayout>
